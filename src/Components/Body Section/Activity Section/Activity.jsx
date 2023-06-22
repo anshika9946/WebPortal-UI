@@ -8,4 +8,4 @@ const Activity = () => {
   )
 }
 
-export default Actitvity;
+export default Activity;
