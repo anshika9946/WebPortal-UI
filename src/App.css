@@ -108,8 +108,8 @@ body{
   justify-content: center;
   background: var(--bgColor);
   overflow: hidden;
-  border-radius: 1rem;
-  box-shadow: 2px 2px 8px var(--greyText);
+  border-radius: .5rem;
+  box-shadow: 1px 1px 6px var(--greyText);
 }
 
 ::-webkit-scrollbar{
