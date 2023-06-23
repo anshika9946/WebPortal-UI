@@ -28,16 +28,18 @@
     overflow: auto;
 
     .logoDiv{
-        padding: 1.5rem 1.5rem 0;
+        padding: 2.25rem 1.5rem 0;
         cursor: pointer;
-
+        color: var(--PrimaryColor);
+        width: 100%;
         img{
             max-width: 20px;
             margin-right: .5rem;
             background: var(--inputColor);
             border-radius: 2px;
             padding: .2rem;
-            
+            width: 100%;
+                  
         }
         h2{
             font-size: var(--h2FontSize);

@@ -5,15 +5,24 @@ import logo from '/Assets/logo.svg'
 import { IoMdSpeedometer } from "react-icons/io";
 import { MdDeliveryDining} from "react-icons/md";
 import { BsQuestionCircle} from "react-icons/bs";
+import {BsGlobe} from 'react-icons/bs';
 
 const Sidebar = () => {
   return (
     
       <div className='sideBar grid'>
-<div className="logoDiv flex">
+{/* <div className="logoDiv flex">
 <img src={logo} alt="Image Name"/>
  <h2>TRACK-PATROL</h2>
-</div>
+</div> */}
+     <div className='logoDiv flex'>
+        <BsGlobe className='icon'/>
+
+          <h2>TRACK-PATROL</h2>
+
+      </div>
+
+
 <div className="menuDiv">
 <h3 className="divTitle">
 QUICK MENU
@@ -23,7 +32,7 @@ QUICK MENU
     <a href="#" className='menuLink flex'>
       <IoMdSpeedometer className="icon"/>
       <span className="smallText">
-        Dashboard
+        Manage Bandobast
         </span>
     </a>
   </li>
@@ -32,7 +41,7 @@ QUICK MENU
     <a href="#" className='menuLink flex'>
       <MdDeliveryDining className="icon"/>
       <span className="smallText">
-        MyOrders
+        Manage Hardware
         </span>
     </a>
   </li>
@@ -41,16 +50,7 @@ QUICK MENU
     <a href="#" className='menuLink flex'>
       <IoMdSpeedometer className="icon"/>
       <span className="smallText">
-        Dashboard
-        </span>
-    </a>
-  </li>
-
-  <li className="listItem">
-    <a href="#" className='menuLink flex'>
-      <IoMdSpeedometer className="icon"/>
-      <span className="smallText">
-        Dashboard
+        Manage Personnel
         </span>
     </a>
   </li>
@@ -67,7 +67,7 @@ SETTINGS
     <a href="#" className='menuLink flex'>
       <IoMdSpeedometer className="icon"/>
       <span className="smallText">
-        Dashboard
+       Manage Admin
         </span>
     </a>
   </li>
@@ -76,28 +76,11 @@ SETTINGS
     <a href="#" className='menuLink flex'>
       <MdDeliveryDining className="icon"/>
       <span className="smallText">
-        MyOrders
+        Log Out
         </span>
     </a>
   </li>
 
-  <li className="listItem">
-    <a href="#" className='menuLink flex'>
-      <IoMdSpeedometer className="icon"/>
-      <span className="smallText">
-        Dashboard
-        </span>
-    </a>
-  </li>
-
-  <li className="listItem">
-    <a href="#" className='menuLink flex'>
-      <IoMdSpeedometer className="icon"/>
-      <span className="smallText">
-        Dashboard
-        </span>
-    </a>
-  </li>
 
 </ul>
 </div>
