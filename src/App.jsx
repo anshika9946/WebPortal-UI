@@ -1,19 +1,20 @@
-import React from "react";
-import Dashboard from "./Components/Dashboard.jsx";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import './App.css';
+import Dashboard from "./Components/Dashboard.jsx";
 import Sidebar from "./Components/SideBar Section/Sidebar.jsx";
 
-
+import './App.css';
 
 const App = () => {
 	return (
- 
-      <div className="container">
-        <Sidebar/>
-        <Dashboard/>
-      </div>
-
+		<div className='container'>
+			<BrowserRouter>
+      <Sidebar/>
+				<Routes>
+					<Route path='/' exact element={<Dashboard />} />
+				</Routes>
+			</BrowserRouter>
+		</div>
 	);
 }
 

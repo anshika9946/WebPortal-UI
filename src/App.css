@@ -104,8 +104,8 @@ body{
   width: 95vw;
   height: 95vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   background: var(--bgColor);
   overflow: hidden;
   border-radius: .5rem;
