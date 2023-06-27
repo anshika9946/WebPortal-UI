@@ -16,8 +16,8 @@ const Sidebar = () => {
     <div className='sideBar grid'>
      <div className='logoDiv flex'>
         <MdOutlineLocalPolice className='icon'/>
-          <h2>TRACK-PATROL</h2>
-      </div>
+          <h2 >TRACKPATROL</h2>
+      </div><hr/>
 
 
     <div className="menuDiv">

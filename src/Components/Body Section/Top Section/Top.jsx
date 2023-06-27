@@ -15,8 +15,8 @@ const Top = () => {
         <p>Hello Admin, Welcome back!</p>
       </ div>
 
-      <div className='searchBar flex'>
-        <input type='text' placeholder=' '/>
+      <div className="topnav__search">
+        <input type="text" placeholder="Search here..." />
         <BiSearchAlt className='icon'/>
       </div>
 
