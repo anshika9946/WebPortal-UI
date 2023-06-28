@@ -18,7 +18,16 @@
     --smallestFontSize: .75rem;
   
   }
-
+/* .headerSection{
+  overflow: hidden;
+  background-color: var(--whiteColor);
+  position: fixed; 
+  width: 73%;
+  height: 10%;
+  padding: 3.75rem;
+  top:2%
+  
+} */
   .topSection{
     margin-bottom: 2rem;
     
@@ -40,28 +49,6 @@
         }
         /* } */
     }
-
-/* .searchBar{ 
-    padding: 1rem 2rem;
-    background: var(--whiteColor);
-    border-radius: 5px;
-    gap: 1rem;
-    box-shadow: 0 2px 4px var(--inputColor);
-
-    input{
-        border: none;
-        outline: none;
-        background: none;
-        
-    }
-
-    .icon{ I
-         color: var(--textColor);  
-        &:hover{
-        color: var(--PrimaryColor);
-     }
-    }
-} */
 
 .topnav__search {
     position: relative;
