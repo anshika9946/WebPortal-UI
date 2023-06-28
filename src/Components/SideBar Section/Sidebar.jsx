@@ -1,5 +1,6 @@
 import React from 'react'
 import './Sidebar.css'
+import { Link } from 'react-router-dom';
 
 import { IoMdSpeedometer } from "react-icons/io";
 // import { IoMdSpeedometer} from "react-icons/io";
@@ -14,10 +15,10 @@ const Sidebar = () => {
   return (
     
     <div className='sideBar grid'>
-     <div className='logoDiv flex'>
+     <Link to='/'><div className='logoDiv flex'>
         <MdOutlineLocalPolice className='icon'/>
           <h2 >TRACKPATROL</h2>
-      </div><hr/>
+      </div></Link><hr/>
 
 
     <div className="menuDiv">
@@ -26,28 +27,31 @@ const Sidebar = () => {
       </h3>
       <ul className="menuLists grid">
         <li className="listItem">
-          <a href="#" className='menuLink flex'>
+        <Link to='/bandobast'><div className='menuLink flex'>
             <IoMdSpeedometer className="icon"/>
             <span className="smallText">
               Manage Bandobast
               </span>
-          </a>
+          </div>
+          </Link>
         </li>
         <li className="listItem">
-          <a href="#" className='menuLink flex'>
+        <Link to='/hardware'><div className='menuLink flex'>
             <IoHardwareChip className="icon"/>
             <span className="smallText">
               Manage Hardware
               </span>
-          </a>
+          </div>
+          </Link>
         </li>
         <li className="listItem">
-          <a href="#" className='menuLink flex'>
+        <Link to='/personnel'><div className='menuLink flex'>
             <BsFillPeopleFill className="icon"/>
             <span className="smallText">
               Manage Personnel
               </span>
-          </a>
+          </div>
+          </Link>
         </li>
 
       </ul>
@@ -60,12 +64,13 @@ const Sidebar = () => {
       </h3>
       <ul className="menuLists grid">
         <li className="listItem">
-          <a href="#" className='menuLink flex'>
+        <Link to='/manageAdmin'><div className='menuLink flex'>
             <MdAdminPanelSettings className="icon"/>
             <span className="smallText">
             Manage Admin
               </span>
-          </a>
+          </div>
+          </Link>
         </li>
         <li className="listItem">
           <a href="#" className='menuLink flex'>

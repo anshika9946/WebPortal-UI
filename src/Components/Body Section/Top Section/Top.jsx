@@ -3,6 +3,7 @@ import './Top.css'
 
 import {BiSearchAlt} from 'react-icons/bi';
 import {MdOutlineNotificationsNone} from 'react-icons/md';
+import {SlCalender} from 'react-icons/sl';
 import img from '/Assets/user.jpg';
 
 
@@ -11,8 +12,8 @@ const Top = () => {
     <div className="topSection">
      <div className="headerSection flex">
       <div className="title">
-        <h1>Welcome to TrackPortal</h1>
-        <p>Hello Admin, Welcome back!</p>
+        {/* <h1>Welcome to TrackPortal</h1> */}
+         <p>Hello<b> Admin</b>, Welcome back!</p>
       </ div>
 
       <div className="topnav__search">
@@ -21,6 +22,7 @@ const Top = () => {
       </div>
 
       <div className='adminDiv flex'>
+      <SlCalender className='icon'/>
         <MdOutlineNotificationsNone className='icon'/>
         <div className='adminImage'>
           <img src={img} alt='Admin Image'/>
