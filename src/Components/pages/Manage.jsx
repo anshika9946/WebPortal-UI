@@ -9,23 +9,22 @@ const Manage= () => {
        <Top/>
       <h2>Ongoing Bandobast</h2>
       <div class="cards">
-<img src={img} alt="Avatar" />
-
-</div>
-<div class="row">
-    <div class="column">
-      <div class="card">Shift Details</div>
-    </div>
-    <div class="column">
-      <div class="card">Broadcast</div>
-    </div>
-    <div class="column">
-      <div class="card">Status Report</div>
-    </div>
-    <div class="column">
-      <div class="card">Online Check</div>
-    </div>
-</div>
+        <img src={img} alt="Avatar" />
+      </div>
+      <div class="row">
+          <div class="column">
+            <div class="card">Shift Details</div>
+          </div>
+          <div class="column">
+            <div class="card">Broadcast</div>
+          </div>
+          <div class="column">
+            <div class="card">Status Report</div>
+          </div>
+          <div class="column">
+            <div class="card">Online Check</div>
+          </div>
+      </div>
     </div>
   )
 }
